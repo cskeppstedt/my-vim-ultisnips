@@ -1,13 +1,13 @@
 snippet reactclass "create class/component" b
 import React from 'react'
 
-export default React.createClass({
+export default class $1 extends React.Component {
 	render () {
 		return (
 			${VISUAL}$2
 		)
 	}
-})
+}
 $0
 endsnippet
 
